@@ -4,7 +4,7 @@ python-multipart
 torch
 transformers
 librosa
-opencv-python-headless
+opencv-python-headless<5.0.0
 tensorflow
 python-Levenshtein
 cmudict

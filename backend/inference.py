@@ -6,7 +6,7 @@ import cv2
 import librosa
 import Levenshtein
 import cmudict
-import moviepy.editor as mp
+from moviepy import VideoFileClip
 from collections import Counter
 
 # --- Lazy Loading Logic to prevent hanging the import ---
@@ -241,7 +241,7 @@ def analyze_presentation(video_path):
 
     audio_path = "temp_audio.wav"
     try:
-        video = mp.VideoFileClip(video_path)
+        video = VideoFileClip(video_path)
         if video.audio is None: return {"error": "Video has no audio."}
         video.audio.write_audiofile(audio_path, logger=None)
     except Exception as e:
