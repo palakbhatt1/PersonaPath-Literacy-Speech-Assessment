@@ -1,0 +1,32 @@
+{
+  "test_mse": 0.00215026899240911,
+  "test_mae": 0.03439231961965561,
+  "mae_points_0_100": 3.439231961965561,
+  "mean_baseline_mae": 0.056885071098804474,
+  "baseline_improvement_points_0_100": 2.2492751479148865,
+  "prediction_std": 0.058502260595560074,
+  "target_std": 0.07404037564992905,
+  "bin_metrics": [
+    {
+      "bin": "Low (<0.60)",
+      "samples": 11,
+      "model_mae": 0.06343197077512741,
+      "baseline_mae": 0.18161562085151672,
+      "improvement_points_0_100": 11.818365007638931
+    },
+    {
+      "bin": "Medium (0.60-0.75)",
+      "samples": 114,
+      "model_mae": 0.030801035463809967,
+      "baseline_mae": 0.04350710287690163,
+      "improvement_points_0_100": 1.270606741309166
+    },
+    {
+      "bin": "High (>=0.75)",
+      "samples": 103,
+      "model_mae": 0.03526581451296806,
+      "baseline_mae": 0.05837101489305496,
+      "improvement_points_0_100": 2.31052003800869
+    }
+  ]
+}

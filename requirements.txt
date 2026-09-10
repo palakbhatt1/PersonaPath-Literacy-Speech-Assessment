@@ -1,0 +1,25 @@
+# Core AI & Audio Processing
+transformers
+librosa
+torch
+tensorflow
+
+# Data & Utilities
+datasets
+numpy
+opencv-python
+Pillow
+scikit-learn
+huggingface_hub
+
+# Pronunciation Alignment
+pronouncing
+python-Levenshtein
+
+# UI & Visualizations
+gradio
+matplotlib
+seaborn
+
+# API Integration
+anthropic

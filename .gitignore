@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data and Models
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# Drive
+/drive
+/content/drive
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temp Inference Files
+uploaded_audio.wav
+uploaded_video.mp4
+temp_video.mp4
+temp_audio.wav
+backend/static/
+backend/weights/haarcascade_frontalface_default.xml
+
+# Model Weights
+backend/weights/*.keras
+backend/weights/*.npy
+PersonaPath/checkpoints/*.keras
+PersonaPath/lstm_features/*.npy
+
+# Dataset Files
+PersonaPath.zip
+PersonaPath/data/
